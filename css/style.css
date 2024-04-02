@@ -4,15 +4,33 @@
     background-color: #d8eaff;
 }
 
+.navbar .navbar-brand{
+    margin-left: 10%;
+}
+
+.navbar .navbar-toggler{
+    margin-right: 2rem;
+}
+
 .navbar-collapse{
     padding-right: 10%;
     align-items: center;
     justify-content: space-between;
+}
+.navbar-nav .nav-link{
+    font-size: 1.1rem;
+    margin-left: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary{
+    margin-top: 1rem;
 }
 
 @media screen and (max-width:767px){
     .navbar-toggler{
         margin-left: auto;
     }
+
 }
 
