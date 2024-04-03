@@ -2,7 +2,9 @@
 <html lang="sp">
     <head>
         <meta charset="UTF-8">
+
         <meta name="author" content="anibal_caeiro">
+
         <meta name="description" content="muestra de trabajos de sublimacion">
         <meta name="keywords" content="sublimar, sublimacion, sublimation, taza, mug">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +19,7 @@
     <body>
         <!-- navbar copy paste de la pagina de bootstrap-->
         <nav class="navbar navbar-expand-md navbar-light" id="navbar">
-            <div class="container-fluid">
+            <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo_nibal_negro_05.png" width="120" alt="logo del website">
                 </a>
@@ -47,48 +49,68 @@
 
         <div class="card text-center">
             <div class="card-header">
-            <h2 id="us">Nosotros</h2>
+                <h2 id="us">Nosotros</h2>
             </div>
             <div class="card-body">
-            <h4 class="card-title">Mugs personalizadas</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <h4 class="card-title">Mugs personalizadas</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Ratione similique enim sed voluptate optio voluptas placeat, repellat labore sunt! Culpa..</p>
-            <img src="images/taza_dragonball.jpg" class="card-img-top" alt="taza_dragonball">
-            <a href="#" class="btn btn-primary">Inicio</a>
+                <img src="images/taza_dragonball.jpg" class="card-img-top" alt="taza_dragonball">
+                <div class="card-center">
+                    <a href="#" class="btn btn-primary">Inicio</a>
+                </div>
             </div>
         </div>
         <div class="card text-center">
             <div class="card-header">
-            <h2 class="card_title" id="porcelain-mugs">Mugs de porcelana</h2>
+                <h2 class="card_title" id="porcelain-mugs">Mugs de porcelana</h2>
             </div>
             <div class="card-body">
-            <h4 class="card-title">Mugs personalizadas con posamug y caja</h4>
-            <div id="carousel-porcelain-mugs" class="carousel slide" data-bs-ride="carousel">
+                <h4 class="card-title">Mugs personalizadas con posamug y caja</h4>
+                
+            <!-- carousel -->
+            <div id="carousel-porcelain-mugs" class="carousel slide mx-auto" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carousel-porcelain-mugs" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carousel-porcelain-mugs" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carousel-porcelain-mugs" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carousel-porcelain-mugs" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carousel-porcelain-mugs" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carousel-porcelain-mugs" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carousel-porcelain-mugs" data-bs-slide-to="6" aria-label="Slide 7"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                    <img src="images/taza_dragonball.jpg" class="d-block w-100" alt="taza_dragonball">
+                        <img src="images/taza_dragonball.jpg" class="d-block w-100" alt="taza_dragonball">
                     </div>
                     <div class="carousel-item">
-                    <img src="images/taza_enzo.jpg" class="d-block w-100" alt="taza_enzo">
+                        <img src="images/taza_enzo.jpg" class="d-block w-100" alt="taza_enzo">
                     </div>
                     <div class="carousel-item">
-                    <img src="images/taza_supernatural.jpg" class="d-block w-100" alt="taza_supernatural">
+                        <img src="images/taza_supernatural.jpg" class="d-block w-100" alt="taza_supernatural">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/taza_sr_de_los_anillos.jpg" class="d-block w-100" alt="taza_sr_de_los_anillos">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/taza_abuela.jpg" class="d-block w-100" alt="taza_abuela">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/taza_abuela_02.jpg" class="d-block w-100" alt="taza_abuela_02">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/taza_renata.jpg" class="d-block w-100" alt="taza_renata">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carousel-porcelain-mugs" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+                    <span class="visually-hidden">Previo</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carousel-porcelain-mugs" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
+                    <span class="visually-hidden">Siguiente</span>
                 </button>
-                </div>
+            </div>
             <a href="#" class="btn btn-primary">Inicio</a>
             </div>
         </div>
@@ -99,53 +121,88 @@
             </div>
             <div class="card-body">
             <p class="card-text">Mugs personalizadas de polimero con su caja</p>
-                <div id="carousel-polymer-mugs" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carousel-polymer-mugs" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carousel-polymer-mugs" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carousel-polymer-mugs" data-bs-slide-to="2" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carousel-polymer-mugs" data-bs-slide-to="3" aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#carousel-polymer-mugs" data-bs-slide-to="4" aria-label="Slide 6"></button>
-                        <button type="button" data-bs-target="#carousel-polymer-mugs" data-bs-slide-to="5" aria-label="Slide 7"></button>
+
+            <!-- carousel -->
+            <div id="carousel-polymer-mugs" class="carousel slide mx-auto" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-polymer-mugs" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel-polymer-mugs" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel-polymer-mugs" data-bs-slide-to="2" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carousel-polymer-mugs" data-bs-slide-to="3" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carousel-polymer-mugs" data-bs-slide-to="4" aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carousel-polymer-mugs" data-bs-slide-to="5" aria-label="Slide 7"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="images/taza_bichos.jpg" class="d-block w-100" alt="taza_dragonball">
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                        <img src="images/taza_bichos.jpg" class="d-block w-100" alt="taza_dragonball">
-                        </div>
-                        <div class="carousel-item">
-                        <img src="images/taza_river_01.jpg" class="d-block w-100" alt="taza_enzo">
-                        </div>
-                        <div class="carousel-item">
-                        <img src="images/taza_brown_01.jpg" class="d-block w-100" alt="taza_supernatural">
-                        </div>
-                        <div class="carousel-item">
-                        <img src="images/taza_belgrano_02.jpg" class="d-block w-100" alt="taza_supernatural">
-                        </div>
-                        <div class="carousel-item">
-                        <img src="images/taza_rosana.jpg" class="d-block w-100" alt="taza_supernatural">
-                        </div>
-                        <div class="carousel-item">
-                        <img src="images/taza_river_02.jpg" class="d-block w-100" alt="taza_supernatural">
-                        </div>
+                    <div class="carousel-item">
+                    <img src="images/taza_river_01.jpg" class="d-block w-100" alt="taza_enzo">
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-polymer-mugs" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-polymer-mugs" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+                    <div class="carousel-item">
+                    <img src="images/taza_brown_01.jpg" class="d-block w-100" alt="taza_supernatural">
                     </div>
+                    <div class="carousel-item">
+                    <img src="images/taza_belgrano_02.jpg" class="d-block w-100" alt="taza_supernatural">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="images/taza_rosana.jpg" class="d-block w-100" alt="taza_supernatural">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="images/taza_river_02.jpg" class="d-block w-100" alt="taza_supernatural">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-polymer-mugs" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previo</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-polymer-mugs" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+                </div>
             <a href="#" class="btn btn-primary">Inicio</a>
             </div>
         </div>
 
+        <!-- footer -->
+        <footer class="footer" id="footer">
+            <section class="footer__container container">
+                <h2 class="footer-subtitle" id="contact">Contacto</h2>
+                <ul class="footer__contact">
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">
+                            <img src="images/instagram_icon.svg" alt="instagram_icon">
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">
+                            <img src="images/facebook_icon.svg" alt="facebook_icon">
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">
+                            <img src="images/whatsapp_icon.svg" alt="whatsapp_icon">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="footer-develop">
+                <div class="footer develop-title">
+                    <h4>Pagina desarrollada por</h4>
+                </div>
+                <div class="footer develop-img">
+                    <a href="https://silca-digital.com/" target="_blank" class="footer-link">
+                        <img src="images/favicon_silcadigital.jpg" width="100" alt="favicon_silcadigital">
+                    </a>
+                </div>
+                <div class="footer developer">
+                    <p>Dev. Anibal Caeiro</p>
+                </div>
+            </section>
 
+        </footer>
         
-        
-        
-            
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <script type="text/javascript">    

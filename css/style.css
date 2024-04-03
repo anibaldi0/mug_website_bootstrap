@@ -23,9 +23,105 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.card-img-top{
+    max-width: 600px;
+}
+
 .btn-primary{
     margin-top: 1rem;
 }
+
+.card .carousel{
+    max-width: 600px;
+}
+
+.contacto .container{
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contacto .rectangulo{
+    margin-top: -5rem;
+    background-color: rgb(13, 110, 253);
+    border-radius: 10px;
+    box-shadow: 0 1px 4px 1px white;
+}
+
+.contacto .row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacto .descripcion{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contacto button{
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover{
+    background-color: white;
+    color: black;
+}
+
+.contacto button i{
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button i:hover{
+    color: black;
+}
+
+/* footer */
+
+.footer{
+    background-color: var(--background);
+}
+
+.footer__container{
+    padding: 1rem;
+}
+
+.footer .footer-subtitle{
+    text-align: center;
+    padding: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.footer__contact{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.footer-develop {
+    display: grid;
+    place-items: center; /* Esto centra vertical y horizontalmente */
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    font-size: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.footer .developer{
+    text-decoration: none;
+}
+
 
 @media screen and (max-width:767px){
     .navbar-toggler{
